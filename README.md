@@ -1,7 +1,7 @@
 # Contents
 
 ## Notes
-1. [Shallow Learning](./01_Shallow_Networks.md)
+1. [Shallow Learning](Notes/01_Shallow_Networks.md)
 
 ## Labs
 
