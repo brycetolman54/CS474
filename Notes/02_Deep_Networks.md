@@ -10,4 +10,13 @@
 - Here are some hyperparameters:
     - $K$ - the number of layers (depth)
     - $D_K$ - number of nodes in the layer (width)
-- 
+- The whole first part of the network is not drawing the hyperplane to separate the points, it is really just bending the space
+    - The last layer of the network is just drawing a line (a flat hyperplane in however many dimensions we are working with)
+    - The space has just been distorted to the point that a line will do
+- Why are deep networks better?
+    - They have been shown to work better empirically, so... (UAT)
+        - The shallow network needs way more nodes to do it though
+    - We can get more linear regions for each parameter we have to tune with deep networks
+        - The problem is that this causes symmetry (but there may be symmetry in real world functions, so...)
+    - We can get funky structures with larger, deeper networks
+        - Like Convnets (we get weights from one area, build up on features from small to large across layers)
