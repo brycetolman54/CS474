@@ -70,3 +70,9 @@
             - The `z` is the output for a specific class
         - We find the network parameters in order to get $z_K$ biggest for what the class should be
         - we infer by grabbing the output `K` that has the highest probability
+- Cross Entropy:
+    - Tells us how different two distributions are
+    - We care about the right answer (probability distribution) and the one we output
+    - We can use Kullback-Leibler divergence to find the difference between the two probabilities
+    - You can think of entropy in terms of how spread out the distribution probability is among the different classes that you can choose
+    - We are trying to get our model to give a distribution that is as least different from the target distribution as we can
