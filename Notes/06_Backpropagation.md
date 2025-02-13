@@ -2,7 +2,7 @@
 
 - This is how we get the loss for each of the layers in the network as we go back through it
 - We could get the gradient like this:
-    - The whole network is one big function (The loss too) based on all the $\Beta$ and $\Omega$
+    - The whole network is one big function (The loss too) based on all the $\beta$ and $\Omega$
     - We could just take a derivative with respect to all of the parameters, but this is super lengthy and stupid
     - We don't want to do that, especially when we have a ton of parameters
 - So how do we actually do it?
@@ -32,5 +32,5 @@
     - We can't have it be too small, as it will vanish
     - We can't have it be too big, as it will explode
     - So... let's enforce the weights to have the same variance at each layer
-        - We can do some algebra things and see that we need $\sigma_{\omega}^{2} = \frac{2}{D_h}$
+        - We can do some algebra things and see that we need $\sigma_{\Omega}^{2} = \frac{2}{D_h}$
         - He initialization is what this is called (this is specifically for a ReLU)
