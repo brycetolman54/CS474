@@ -10,7 +10,7 @@
 7. [Regularization](Notes/07_Regularization.md)
 
 ## Labs
-0. [Project Proposal](Labs/Proposal.md)
+0. [Project Proposal](Labs/ProjectPlan.md)
 1. [PyTorch Intro, Autodifferentiation, and Optimization](Labs/Lab1.ipynb)
 2. [Modules and Training Pipelines](Labs/Lab2.ipynb)
 3. [Cross Entropy with Convnets](Labs/Lab3.ipynb)
