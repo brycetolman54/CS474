@@ -8,6 +8,7 @@
 5. [Training a network](Notes/05_Fitting.md)
 6. [Backpropagation](Notes/06_Backpropagation.md)
 7. [Regularization](Notes/07_Regularization.md)
+8. [Style Transfer](Notes/08_Style_Transfer.md)
 
 ## Labs
 0. [Project Proposal](Labs/ProjectPlan.md)
@@ -17,4 +18,5 @@
 4. [UNets and Dense Prediction](Labs/Lab4.ipynb)
 5. [Measuring Performance](Labs/Lab5.ipynb)
 6. [Regularization](Labs/Lab6.ipynb)
+7. [Style Transfer](Labs/Lab7.ipynb)
 
