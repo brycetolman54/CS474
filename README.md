@@ -9,6 +9,7 @@
 6. [Backpropagation](Notes/06_Backpropagation.md)
 7. [Regularization](Notes/07_Regularization.md)
 8. [Style Transfer](Notes/08_Style_Transfer.md)
+9. [Residual Nets](Notes/09_Residual_Nets.md)
 
 ## Labs
 0. [Project Proposal](Labs/ProjectPlan.md)
