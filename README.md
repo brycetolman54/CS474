@@ -10,6 +10,7 @@
 7. [Regularization](Notes/07_Regularization.md)
 8. [Style Transfer](Notes/08_Style_Transfer.md)
 9. [Residual Nets](Notes/09_Residual_Nets.md)
+10. [Transformers](Notes/10_Transformers.md)
 
 ## Labs
 0. [Project Proposal](Labs/ProjectPlan.md)
@@ -20,4 +21,5 @@
 5. [Measuring Performance](Labs/Lab5.ipynb)
 6. [Regularization](Labs/Lab6.ipynb)
 7. [Style Transfer](Labs/Lab7.ipynb)
+8. [Self Attention](Labs/Lab8.ipynb)
 
