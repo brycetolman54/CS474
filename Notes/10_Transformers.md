@@ -29,3 +29,30 @@
     - We know that order is important, so we need to account for it.
     - We just add a vector to the original embedding that uniquely encodes the order
     - We add this to the Q, K, and V vectors
+
+
+# Flavors of Transformers
+
+- There are different ways to use these transformers
+
+## Encoder (BERT)
+
+- The whole purpose of this is to find a good embedding, that is the product that we are interested in
+- We get it to create these embeddings by masking some of the input words and having it predict the probability of those masked words
+- Once we have it making good embeddings, we add a new head that looks at those embeddings and does what we want it to
+    - Sentiment analysis, entity recognition, etc.
+
+## Decoder (GPT3)
+
+- This is just the latter part, what we talked about above
+- Even though we are not doing Encoding-Decoding, we have to do some sort of embedding in order to get vectors we can pass through the model
+    - We don't care about making great embeddings, so we don't care what the embeddings we use look like
+- We take the embeddings, do all of that above, get out a probability distribution and sample from that to get the next output
+    - We add that to the input, then go again until we are done.
+
+## Encoder-Decoder (Machine Translation)
+
+- Where as we have Q and K and V be the same for auto-regression in Decoders, we do something different here
+    - We want to generate language according to the other language that we are translating from
+    - We make the keys come from the embeddings of the first language (to translate from) (from the Encoder)
+    - We make the queries come from the language that we are translating to (from the Decoder)
