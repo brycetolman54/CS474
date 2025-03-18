@@ -11,6 +11,7 @@
 8. [Style Transfer](Notes/08_Style_Transfer.md)
 9. [Residual Nets](Notes/09_Residual_Nets.md)
 10. [Transformers](Notes/10_Transformers.md)
+11. [Generative Adversarial Networks](Notes/11_GAN.md)
 
 ## Labs
 0. [Project Proposal](Labs/ProjectPlan.md)
@@ -22,4 +23,6 @@
 6. [Regularization](Labs/Lab6.ipynb)
 7. [Style Transfer](Labs/Lab7.ipynb)
 8. [Self Attention](Labs/Lab8.ipynb)
+9. [Transfer Learning](Labs/Lab9.ipynb)
+10. [Diffusion](Labs/Lab10.ipynb)
 
