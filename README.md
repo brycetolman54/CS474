@@ -13,6 +13,7 @@
 10. [Transformers](Notes/10_Transformers.md)
 11. [Generative Adversarial Networks](Notes/11_GAN.md)
 12. [Diffusion](Notes/12_Diffusion.md)
+13. [Reinforcement Learning](Notes/13_RL.md)
 
 ## Labs
 0. [Project Proposal](Labs/ProjectPlan.md)
